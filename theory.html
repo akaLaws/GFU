@@ -1,0 +1,40 @@
+
+<!-- <> kaldes tags indikere et element - hvilket er ligesom en flyttebox som man putter ting i når indholdet er i skal kassen lukkes med et låg </>  
+    (Start og slut tag). Nogle gange er indholdet kun i attributterne og der er låget inkluderes i start tag -->
+
+<!-- Så lad os definerer hvad dælen det er for et type dokument vi er ved at lave så browseren ved hvordan den skal læses-->
+<!DOCTYPE html>
+
+<!-- Sproget for indholdet defineres også for googles og browserens skyld det gør det nemmere at oversætte siden. 
+    Det er brugervenligt, husk dog at matche dette til dit reele indhold-->
+<html lang="en">
+
+<!-- <Head> er alt hvad du har i hovedet alt man ikke kan se -->
+<head>
+
+    <!-- Det er hvilket sprog du snakker - I dette tilfælde er det charset UTF-8 som er tegsættet dvs de symboler og alphabet vi bruger i indholdet -->
+    <meta charset="UTF-8">
+
+    <!-- Det er at man mentalt kun kan rumme den nyeste eller en bestemt ældre version af internet explorer 
+        (denne er dog efterhånden lidt overflødig men hjælper brugervenligheden i forhold til dem der kun bruger interne explorer eller Edge) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Det er at sikre at indholdet skaleres porportionelt til PPI - pixels per inch da en pixel på mobilen er meeeget mindre end en skærm pixel 
+        Måske lettere tilsvarende briller.. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Det er også hvilke overvejeleser du gør om din personlighed og din stil - På hjemmesiden er det de funktioner og styling der ligger bag
+        Disse bliver inkluderet i <head> og kaldes hvor de er relevant hos de enkelte elementer f.eks. som "class" attribut. Ved at inkludere disse filer kan indholdet
+        refereres til hinanden på tværs af dokumenter og kodesprog. De er forbundet. I det her tilfælde skal vi inkludere stylesheet -->
+    <link rel="stylesheet" href="">
+
+    <!-- Det er dit navn - eller i dette tilfældet titlen på websiden -->
+    <title>Document</title>
+</head>
+
+<!-- Alt i <body> er det du ser det er hoved, hals, skulder krop, arme ben osv - Farver og stile defineres af CSSen ;) -->
+<body>
+    <!-- Det er her det sjove kommer til at ske og hvor vores indhold bliver lagt. Dette er vores flyttevogn so to speak -->
+</body>
+
+</html>
