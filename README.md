@@ -14,3 +14,25 @@ Ressourcer for Webudvikler Workshop RTS - Webudvikling
 | 12.45 - 13.30 | Tools | HTML | HTML | CSS | Applications |
 | 13.30 - 13.40 | BREAK | BREAK | BREAK | BREAK | BREAK |
 | 13.40 - 14.25 | Tools | HTML | HTML | CSS | Applications |
+
+### Nyttige links
+Her er der nogle links til dokumentation, tutorials mm.
+
+Man lærer på forskellige måder nogle har brug for tekst andre for video og nogle ved at springe med hovedet ud først i koden. 
+
+Tutorials: 
+* [MDN - HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+* [MDN - CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+* [W3Schools - HTML](https://www.w3schools.com/html/default.asp)
+* [W3Schools - CSS](https://www.w3schools.com/css/default.asp)
+* [Internetting is hard](https://www.internetingishard.com/)
+* [The net ninja - youtube](https://www.youtube.com/watch?v=hu-q2zYwEYs)
+
+
+Dokumentation:
+* [MDN - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
+* [MDN - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+* [W3Schools - HTML](https://www.w3schools.com/tags/default.asp)
+* [W3Schools - CSS](https://www.w3schools.com/cssref/default.asp)
+* [CSS Reference](https://cssreference.io/)
+
