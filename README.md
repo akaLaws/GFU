@@ -5,15 +5,15 @@ Ressourcer for Webudvikler Workshop RTS - Webudvikling
 |     | mon | tue | wed | thu | fri |
 | --- | --- | --- | --- | --- | --- |
 | 08.10 - 08.55 | Intro | Follow up | Follow up | Follow up | Follow up |
-| 08.55 - 09.40 | Walk'n'talk | Assignment intro | HTML | CSS | Deploy |
+| 08.55 - 09.40 | Walk'n'talk | HTML | CSS | CSS | Deploy |
 | 09.40 - 10.00 | BREAK | BREAK | BREAK | BREAK | BREAK |
-| 10.00 - 10.45 | Frontend | Deconstruct | HTML | CSS | Digital marketing | 
-| 10.45 - 11.30 | Frontend | HTML | HTML | CSS | pitch|
+| 10.00 - 10.45 | Frontend | HTML | HTML | CSS | Digital marketing | 
+| 10.45 - 11.30 | Tools | CSS intro | HTML | CSS | pitch|
 | 11.30 - 12.00 | LUNCH | LUNCH | LUNCH | LUNCH | LUNCH |
-| 12.00 - 12.45 | Tools | HTML | HTML | CSS | Pitch |
-| 12.45 - 13.30 | Tools | HTML | HTML | CSS | Applications |
+| 12.00 - 12.45 | Assignment intro | CSS | HTML | CSS | Pitch |
+| 12.45 - 13.30 | Deconstruct | CSS | HTML | CSS | Applications |
 | 13.30 - 13.40 | BREAK | BREAK | BREAK | BREAK | BREAK |
-| 13.40 - 14.25 | Tools | HTML | HTML | CSS | Applications |
+| 13.40 - 14.25 | HTML | HTML | CSS | CSS | Applications |
 
 ### Nyttige links
 Her er der nogle links til dokumentation, tutorials mm.
@@ -36,5 +36,48 @@ Dokumentation:
 * [W3Schools - CSS](https://www.w3schools.com/cssref/default.asp)
 * [CSS Reference](https://cssreference.io/)
 
-DISCORD LINK:
-[invite til server](https://discord.gg/pXnWuM9z)
+Lær CSS:
+Alt er lidt sjovere når man må lege mens man lærer 😉
+
+* [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Grid Garden](https://cssgridgarden.com/) (Vi skal ikke bruge grid men for dem der er hurtig færdig med froggy kan den være sjov)
+
+Konventioner for kode struktur og navngivning:
+Dette kan være god læsning og inspiration for at bygge gode vaner fra starten
+* [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) (Struktur af programmeringskode generelt)
+* [Scalable Modular Arcitecture CSS](http://smacss.com/) (Struktur for CSS specifikt)
+* [Block Element Modifier](http://getbem.com/) (Navngivning for CSS)
+
+Den CSS struktur model jeg anbefaler for CV projektet: 
+```
+/****************************************************/
+/*                   STRUCTURE                      */
+/****************************************************/
+/* 
+This is the structure followed for properties in the elements.
+This allow for readability and easier debugging + editting 
+
+element{
+    display
+    positioning
+
+    dimensions
+    margin + padding
+
+    background
+    box styling
+
+    content positioning
+
+    text styling
+
+    animations
+    transitions
+
+    other?
+}
+
+*/
+
+```
+Husk at kigge i dokumentationen for properties du vil bruge, alternativt så google f.eks. "text styling in CSS".
