@@ -36,3 +36,5 @@ Dokumentation:
 * [W3Schools - CSS](https://www.w3schools.com/cssref/default.asp)
 * [CSS Reference](https://cssreference.io/)
 
+DISCORD LINK:
+[invite til server](https://discord.gg/pXnWuM9z)
