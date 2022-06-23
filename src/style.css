@@ -1,0 +1,229 @@
+/****************************************************/
+/*                   STRUCTURE                      */
+/****************************************************/
+/* 
+This is the structure followed for properties in the elements.
+This allow for readability and easier debugging + editting 
+
+element{
+    display
+    positioning
+
+    dimensions
+    margin + padding
+
+    background
+    box styling
+
+    content positioning
+
+    text styling
+
+    animations
+    transitions
+
+    other?
+}
+
+*/
+
+/****************************************************/
+/*                   VARIABLES                      */
+/****************************************************/
+/* 
+Root will contain variables for the theme of the page
+including colors and typogrophy of the page 
+*/
+:root{
+    --main-color: #E7BB41;
+    --accent-color:#D3D0CB ;
+    --dark-color: #393E41;
+    --light-color: #E7E5DF;
+
+    --main-font: Verdana, Geneva, Tahoma, sans-serif;
+    --accent-font: Arial, Helvetica, sans-serif;
+}
+
+/****************************************************/
+/*                   BASERULES                      */
+/****************************************************/
+/* 
+Star rule is a reset rule that will overwrite the browsers standard settings. 
+Be aware that these rule WILL be inherited by all your elements unless properties are specified in said element
+specified properties in your stylesheet will overrule reset rules.
+*/
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+ body{
+    background-color: var(--light-color);
+
+    color: var(--dark-color);
+    font-family: var(--main-font);
+ }
+
+
+/****************************************************/
+/*                   TYPOGROPHY                     */
+/****************************************************/
+
+h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    color: var(--accent-color);
+    font-family: var(--main-font);
+    font-size: 3em;
+    
+
+}
+
+ h2 {
+    color: var(--main-color);
+    font-family: var(--accent-font);
+    font-size: 2em;
+ }
+ 
+ h4{
+    color: var(--main-color);
+    font-size: 0.9em;
+ }
+
+ p, li {
+    padding-top: 0.5em;
+
+    font-size: 0.9em;
+    list-style: none;
+ }
+
+ .center{
+    width: 100%;
+    padding: 7%;
+
+    border-bottom: 2px solid var(--accent-color);
+
+    text-align: center;
+ }
+
+ .quote{
+    padding: 7%;
+
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 2em;
+    color: var(--light-color);
+ }
+
+ .cursive{
+     font-size: 1em;
+     font-style: italic;
+ }
+
+/****************************************************/
+/*                   THE HEADER                     */
+/****************************************************/
+
+ header{
+    display: flex;
+
+    width: 100%;
+    padding: 2em;
+
+    background-color: var(--main-color);
+
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    text-align: center;
+ }
+
+ header > img{
+    max-width: 200px;
+    max-height: 200px;
+
+    border-radius: 100%;
+
+
+ }
+
+ .socialmedia{
+    display: flex;
+
+    width: 50%;
+
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5em;
+
+    font-size: 2.5em;
+    
+ }
+
+ .socialmedia a{
+    color: var(--accent-color);
+ }
+ .socialmedia a:hover{
+    color: var(--light-color);
+ }
+
+
+/****************************************************/
+/*                 THE CONTENT                      */
+/****************************************************/
+
+ main{
+    display: flex;
+
+    width: 70%;
+    margin: 0px auto;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 4em;
+ }
+
+ /* Contains the sections with work experience and education */
+ .experience{
+    display: flex;
+
+    flex: 1;
+
+    flex-direction: column; 
+}
+
+ section{
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+ }
+
+ article{
+    padding-top: 2.5em;
+ }
+
+ aside{
+    display: flex;
+
+    flex: initial;
+
+    flex-direction: column;
+}
+ 
+
+/****************************************************/
+/*                   THE FOOTER                     */
+/****************************************************/
+
+ footer{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 2em;
+    
+    background-color: var(--main-color);
+ }
