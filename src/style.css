@@ -100,6 +100,16 @@ h1{
     font-size: 0.9em;
     list-style: none;
  }
+ 
+
+ a{
+   text-decoration: none;
+   font-size: 0.9em;
+   color: var(--main-color);
+ }
+ a:hover{
+    color: var(--dark-color);
+ }
 
  .center{
     width: 100%;
@@ -159,17 +169,19 @@ h1{
 
     flex-direction: row;
     justify-content: center;
-    gap: 0.5em;
+    column-gap: 0.5em;
 
     font-size: 2.5em;
     
  }
 
- .socialmedia a{
-    color: var(--accent-color);
+ .socialmedia > a{
+
+   font-size: 1.5em;
+   color: var(--accent-color);
  }
- .socialmedia a:hover{
-    color: var(--light-color);
+ .socialmedia > a:hover{
+   color: var(--light-color);
  }
 
 
@@ -215,6 +227,27 @@ h1{
     flex-direction: column;
 }
  
+/****************************************************/
+/*                   THE PORTFOLIO                  */
+/****************************************************/
+.portfolio{
+   display: flex;
+
+   flex-direction: row;
+   flex-wrap: wrap;
+   column-gap: 2em;
+   justify-content: space-between;
+}
+.portfolio img{
+   max-width: 30%;
+
+}
+.portfolio ul{
+   padding-bottom: 1em;
+   padding-top: 1em;
+   text-indent: 2em;
+}
+
 
 /****************************************************/
 /*                   THE FOOTER                     */
